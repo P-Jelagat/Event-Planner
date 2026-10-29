@@ -95,7 +95,7 @@ footer {
 }
 .events_categories {
  display: flex;
- gap: 30px;
+ gap: 15px;
  justify-content: center;
 }
 .events_categories ul {
