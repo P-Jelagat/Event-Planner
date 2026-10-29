@@ -18,8 +18,8 @@ const EventPlanner = () => {
 
         <section className="events_categories">
             {/* Social event types */}
+            <h2>Social Events:</h2>
             <ul>
-                <h2>Social Events:</h2>
                 <li>Birthday parties</li>
                 <li>Anniversary celebrations</li>
                 <li>Wedding receptions</li>
@@ -28,8 +28,8 @@ const EventPlanner = () => {
                 <li>Family reunions</li>
             </ul>
             {/* Entertainment-based event types */}
+            <h2>Entertainment Events:</h2>
             <ul>
-                <h2>Entertainment Events:</h2>
                 <li>Concerts</li>
                 <li>Music festivals</li>
                 <li>Film screenings</li>
@@ -38,8 +38,8 @@ const EventPlanner = () => {
                 <li>Cultural events</li>
             </ul>
             {/* Community-focused event types */}
+            <h2>Community Events:</h2>
             <ul>
-                <h2>Community Events:</h2>
                 <li>Fundraising events</li>
                 <li>Charity galas</li>
                 <li>Volunteer drives</li>
