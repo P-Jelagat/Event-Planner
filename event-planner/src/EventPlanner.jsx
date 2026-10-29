@@ -18,35 +18,41 @@ const EventPlanner = () => {
 
         <section className="events_categories">
             {/* Social event types */}
-            <h2>Social Events:</h2>
-            <ul>
-                <li>Birthday parties</li>
-                <li>Anniversary celebrations</li>
-                <li>Wedding receptions</li>
-                <li>Baby showers</li>
-                <li>Graduation parties</li>
-                <li>Family reunions</li>
-            </ul>
+            <div className="event-category">
+                <h2>Social Events:</h2>
+                <ul>
+                    <li>Birthday parties</li>
+                    <li>Anniversary celebrations</li>
+                    <li>Wedding receptions</li>
+                    <li>Baby showers</li>
+                    <li>Graduation parties</li>
+                    <li>Family reunions</li>
+                </ul>
+            </div>
             {/* Entertainment-based event types */}
-            <h2>Entertainment Events:</h2>
-            <ul>
-                <li>Concerts</li>
-                <li>Music festivals</li>
-                <li>Film screenings</li>
-                <li>Comedy shows</li>
-                <li>Art exhibitions</li>
-                <li>Cultural events</li>
-            </ul>
+            <div className="event-category">
+                <h2>Entertainment Events:</h2>
+                <ul>
+                    <li>Concerts</li>
+                    <li>Music festivals</li>
+                    <li>Film screenings</li>
+                    <li>Comedy shows</li>
+                    <li>Art exhibitions</li>
+                    <li>Cultural events</li>
+                </ul>
+            </div>
             {/* Community-focused event types */}
-            <h2>Community Events:</h2>
-            <ul>
-                <li>Fundraising events</li>
-                <li>Charity galas</li>
-                <li>Volunteer drives</li>
-                <li>Neighborhood block parties</li>
-                <li>Community festivals</li>
-                <li>Cultural celebrations</li>
-            </ul>
+            <div className="event-category">            
+                <h2>Community Events:</h2>
+                <ul>
+                    <li>Fundraising events</li>
+                    <li>Charity galas</li>
+                    <li>Volunteer drives</li>
+                    <li>Neighborhood block parties</li>
+                    <li>Community festivals</li>
+                    <li>Cultural celebrations</li>
+                </ul>
+            </div>
         </section>
 
         <section className='features'>
