@@ -89,6 +89,14 @@ footer {
  margin-top: 50px;
  font-size: 0.9rem;
 }
+
+.events_categories {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
 .events_categories h1 {
  background-color: gray;
  text-align: center;
