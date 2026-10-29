@@ -3,6 +3,9 @@ import './EventPlanner.css'; // Import CSS file for styling
 import Footer from './Components/Footer';
 
 const EventPlanner = () => {
+    const handleGetStarted = () => {
+        alert('Welcome to Event Planner!');
+    }
  return (
     <div className="event-planner-container">
         <header>
@@ -13,7 +16,10 @@ const EventPlanner = () => {
             <p>
                 Plan and organize events effortlessly
             </p>
-            <button className='get-started-button'>Get Started</button>
+            <button 
+              className='get-started-button'
+              onClick={handleGetStarted}
+             >Get Started</button>
         </section>
 
         <section className="events_categories">
