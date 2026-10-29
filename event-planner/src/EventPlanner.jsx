@@ -6,6 +6,16 @@ const EventPlanner = () => {
     const handleGetStarted = () => {
         alert('Welcome to Event Planner!');
     }
+
+    const socialEvents = [
+        'Birthday parties',
+        'Anniversary celebrations',
+        'Wedding receptions',
+        'Baby showers',
+        'Graduation parties',
+        'Family reunions'
+        ];
+
  return (
     <div className="event-planner-container">
         <header>
@@ -27,12 +37,9 @@ const EventPlanner = () => {
             <div className="event-category">
                 <h2>Social Events:</h2>
                 <ul>
-                    <li>Birthday parties</li>
-                    <li>Anniversary celebrations</li>
-                    <li>Wedding receptions</li>
-                    <li>Baby showers</li>
-                    <li>Graduation parties</li>
-                    <li>Family reunions</li>
+                    {socialEvents.map(  (socialEvent)=> (
+                        <li>{socialEvent}</li>
+                     ))}
                 </ul>
             </div>
             {/* Entertainment-based event types */}
